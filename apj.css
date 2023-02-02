@@ -1,0 +1,46 @@
+.body{
+    background-color:red;
+    margin: 0;
+    padding:0;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 500px;
+    box-shadow: -10px -10px 5px 5px red;
+    background: rgb(13, 150, 82);
+    padding: 20px;
+    margin: 6% auto 0;
+}
+.D{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    /*border: solid 1px red;*/
+    margin-bottom: 0px;
+}
+img{
+    /*border: solid 1px red;*/
+    border-radius: 50%;
+}
+.name{
+    margin-bottom: 0px;
+}
+.dob{
+    margin-top: 0px;
+    text-align: end;
+}
+.B{
+    /*border: solid 1px red;*/
+    margin-top: 0px;
+}
+.heading{
+    margin-bottom: 5px;
+}
+p{
+    margin-top: 1px;
+    text-align: justify;
+}
